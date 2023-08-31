@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Formulario</title>
+</head>
+<body background="Imagem/backgroundform.jpg">
+
+    <h1>Formulário Desafio</h1>
+    
+    <form action="processar-formulario.html" method="post">
+        <center><label for="nome"><font face="Comic Sans MS" size="3" color="#fff">Nome:</font></label>
+        <input placeholder="Digite seu nome" autofocus type="text" id="nome" name="nome" required></center></br>
+
+	<center><label for="Sobrenome"><font size="3" face="Comic Sans MS" color="#fff">Sobrenome:</font></label>
+        <input placeholder="Digite seu Sobrenome" type="text" id="sobrenome" name="sobrenome" required></center></br>
+        
+        <center><label for="telefone"><font size="3" face="Comic Sans MS" color="#fff">Telefone:</font></label>		        
+	<input placeholder="Digite seu Telefone" type="tel" id="telefone" maxlength="13" minlength="10" name="telefone" required></center></br>
+
+        <center><label for="email"><font size="3" face="Comic Sans MS" color="#fff">Email:</font></label>
+        <input placeholder="Digite seu email" type="email" id="email" name="email" required></center></br>
+
+        <center><label for="datanasc"><font size="3" face="Comic Sans MS" color="#fff">Data de Nascimento</font></label>
+        <input placeholder="Digite sua data de nascimento" type="date" id="datanasc" name="datanasc" min="1920-01-01" max="2023-08-27" value="1998-01-01"  required></center></br>
+
+        <center><input type="submit" value="Enviar"></center>
+
+    </form>
+
+       <footer>
+        <center><button><a href="index.html"><h3>Index</h3></a></button></center>
+    	</footer>
+</body>
+</html>
